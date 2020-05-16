@@ -1,0 +1,15 @@
+BUGRA CAN ASCI
+CONCURRENCY IN GO
+WEEK 1
+
+Moore's Law predicted that transistor density in CPUs would double every two years. This law is an observation, not a physical law. 
+There are several reasons behind why this law is deprecated nowadays:
+
+1. Transistors consume power when they switch. Smaller transistors switch faster. Exponential increase in density would lead to exponential increase in speed.
+2. Increasing transistor density leads to increased power consumption. Altough smaller transistors
+use less power than larger ones, density scaling is the main factor. High power will lead to high temperature. 
+3. The dynamic power of a transistor is directly proportional with the square of the voltage value through it. According to Dennard Scaling Theory, voltage should scale with
+transistor size but due to the activation potential(saturation region) of a transistor for it to be able to switch between high and low states, the voltage must be above a certain threshold
+value.
+4. Power leakage due to insulating material that separates transistors with their surrounding medium. As transistors shrink in size, maintaining leakage gets limited.
+5. Heat dissipation limits in available cooling systems cannot compensate this heat generation.
